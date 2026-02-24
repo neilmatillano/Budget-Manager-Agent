@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv(override=True)
 
 # Définissez votre clé API OpenRouter ici. Remplacez "VOTRE_CLE_API_OPENROUTER_ICI" par votre clé réelle.
-os.environ["OPENROUTER_API_KEY"] = "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"
+os.environ["OPENROUTER_API_KEY"] = "MY_OPENROUTER_API_KEY"
 # Définissez également l'URL de base pour OpenRouter afin que la bibliothèque agents la prenne en compte.
 os.environ["OPENROUTER_API_BASE"] = "https://openrouter.ai/api/v1"
 
@@ -61,3 +61,4 @@ async def main():
 # 3. Output the agent's answer
 if __name__ == "__main__":
     asyncio.run(main())
+
