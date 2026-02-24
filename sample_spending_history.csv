@@ -1,0 +1,45 @@
+Date,Description,Amount,Category
+2025-01-02,Whole Foods Market,112.45,Groceries
+2025-01-03,Netflix,15.99,Entertainment
+2025-01-04,Starbucks,6.75,Coffee Shops
+2025-01-05,Uber,14.2,Transport
+2025-01-07,Electricity Bill,95.0,Utilities
+2025-01-08,Spotify,9.99,Entertainment
+2025-01-09,Chipotle,13.5,Dining Out
+2025-01-10,Amazon,47.99,Shopping
+2025-01-12,Starbucks,7.2,Coffee Shops
+2025-01-13,Gym Membership,40.0,Health & Fitness
+2025-01-14,Whole Foods Market,89.3,Groceries
+2025-01-15,Internet Bill,60.0,Utilities
+2025-01-16,Uber Eats,32.8,Dining Out
+2025-01-18,Pharmacy – CVS,22.15,Health & Fitness
+2025-01-20,Lyft,11.0,Transport
+2025-01-21,H&M,65.0,Clothing
+2025-01-22,Trader Joe's,54.6,Groceries
+2025-01-24,Starbucks,6.5,Coffee Shops
+2025-01-25,The Cheesecake Factory,58.4,Dining Out
+2025-01-27,Amazon Prime,14.99,Subscriptions
+2025-01-28,Gas Station – Shell,48.0,Transport
+2025-01-30,Rent,1400.0,Housing
+2025-02-01,Whole Foods Market,105.8,Groceries
+2025-02-02,Netflix,15.99,Entertainment
+2025-02-03,Starbucks,7.0,Coffee Shops
+2025-02-04,Uber,18.5,Transport
+2025-02-05,Electricity Bill,102.0,Utilities
+2025-02-06,Spotify,9.99,Entertainment
+2025-02-08,Sushi Restaurant,72.0,Dining Out
+2025-02-10,Amazon,33.49,Shopping
+2025-02-11,Starbucks,6.75,Coffee Shops
+2025-02-12,Gym Membership,40.0,Health & Fitness
+2025-02-13,Trader Joe's,67.2,Groceries
+2025-02-14,Valentine's Day Dinner,95.0,Dining Out
+2025-02-15,Internet Bill,60.0,Utilities
+2025-02-17,Lyft,9.8,Transport
+2025-02-18,Pharmacy – Walgreens,18.4,Health & Fitness
+2025-02-19,Zara,89.99,Clothing
+2025-02-20,Uber Eats,28.6,Dining Out
+2025-02-22,Starbucks,6.5,Coffee Shops
+2025-02-24,Amazon Prime,14.99,Subscriptions
+2025-02-25,Gas Station – BP,51.0,Transport
+2025-02-26,Apple App Store,4.99,Subscriptions
+2025-02-28,Rent,1400.0,Housing
