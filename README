@@ -1,105 +1,177 @@
-# AI Budget Manager Agent
+AI Budget Manager Agent
 
 This project is a Streamlit web application that serves as a front-end for an AI-powered budget management agent. The agent analyzes a user's financial data—income, expenses, goals, and spending history—to generate a comprehensive "Budget Health Report" with data-driven insights and actionable recommendations.
 
----
 
-## Features
 
-*   **Intuitive User Interface**: A clean, section-based UI built with Streamlit for easy data entry.
-*   **Multiple Data Inputs**: Separate, clearly defined input areas for income, expenses, and financial goals.
-*   **CSV Upload**: Users can upload their transaction history via a CSV file for quick and easy analysis.
-*   **AI-Powered Analysis**: Leverages a powerful AI agent to parse natural language, categorize transactions, and generate a personalized budget.
-*   **Comprehensive Reporting**: Generates a structured "Budget Health Report" in Markdown, including a budget overview, spending analysis, key insights, and goal progress.
-*   **Secure and Private**: The agent is designed with strict constraints to ensure it does not handle real assets, provide financial advice, or store personally identifiable information (PII).
 
----
+Features
 
-## Getting Started
+•
+Intuitive User Interface: A clean, section-based UI built with Streamlit for easy data entry.
 
-### Prerequisites
+•
+Multiple Data Inputs: Separate, clearly defined input areas for income, expenses, and financial goals.
 
-*   Python 3.8+
-*   An OpenRouter API key
+•
+CSV Upload: Users can upload their transaction history via a CSV file for quick and easy analysis.
 
-### Installation & Setup
+•
+AI-Powered Analysis: Leverages a powerful AI agent to parse natural language, categorize transactions, and generate a personalized budget.
 
-1.  **Clone the repository:**
+•
+Comprehensive Reporting: Generates a structured "Budget Health Report" in Markdown, including a budget overview, spending analysis, key insights, and goal progress.
 
-    ```bash
-    git clone <your-repo-url>
-    cd <your-repo-directory>
-    ```
+•
+Secure and Private: The agent is designed with strict constraints to ensure it does not handle real assets, provide financial advice, or store personally identifiable information (PII).
 
-2.  **Install the required Python packages:**
 
-    ```bash
-    pip install -r requirements.txt
-    ```
 
-    Your `requirements.txt` file should include:
 
-    ```
-    streamlit
-    pandas
-    python-dotenv
-    openai
-    agents-api
-    ```
+Getting Started
 
-3.  **Set up your environment variables:**
+Prerequisites
 
-    Create a file named `.env` in the root of your project directory and add your OpenRouter API key:
+•
+Python 3.8+
 
-    ```
-    OPENROUTER_API_KEY="sk-or-v1-your-key-here"
-    ```
+•
+An OpenRouter API key
 
-### Running the Application
+Installation & Setup
+
+1.
+Clone the repository:
+
+Bash
+
+
+git clone <your-repo-url>
+cd <your-repo-directory>
+
+
+
+
+
+2.
+Install the required Python packages:
+
+Bash
+
+
+pip install -r requirements.txt
+
+
+
+Your requirements.txt file should include:
+
+Plain Text
+
+
+streamlit
+pandas
+python-dotenv
+openai
+agents-api
+
+
+
+
+
+3.
+Set up your environment variables:
+
+Create a file named .env in the root of your project directory and add your OpenRouter API key:
+
+Plain Text
+
+
+OPENROUTER_API_KEY="sk-or-v1-your-key-here"
+
+
+
+
+
+Running the Application
 
 Execute the following command in your terminal:
 
-```bash
+Bash
+
+
 streamlit run budget_manager_app.py
-```
+
+
 
 The application will open in your default web browser.
 
----
 
-## How to Use the App
 
-1.  **Fill in Your Financial Details**: Complete at least one of the four sections in the app:
-    *   **Income Sources**: List your monthly or weekly income.
-    *   **Expense Items**: List your recurring and one-off expenses.
-    *   **Financial Goals**: Detail what you are saving for.
-    *   **Spending History**: Either upload a CSV file of your past transactions or enter them manually.
 
-2.  **Generate the Report**: Click the **"Generate Budget Report"** button.
+How to Use the App
 
-3.  **Review Your Analysis**: The AI agent will process your information and display a detailed report, offering insights into your spending habits and providing recommendations to help you reach your goals.
+1.
+Fill in Your Financial Details: Complete at least one of the four sections in the app:
 
----
+•
+Income Sources: List your monthly or weekly income.
 
-## CSV File Format
+•
+Expense Items: List your recurring and one-off expenses.
+
+•
+Financial Goals: Detail what you are saving for.
+
+•
+Spending History: Either upload a CSV file of your past transactions or enter them manually.
+
+
+
+2.
+Generate the Report: Click the "Generate Budget Report" button.
+
+3.
+Review Your Analysis: The AI agent will process your information and display a detailed report, offering insights into your spending habits and providing recommendations to help you reach your goals.
+
+
+
+
+CSV File Format
 
 When using the CSV upload feature, ensure your file has the following four columns. The column headers must match exactly.
 
-| Column | Type | Description |
-|---|---|---|
-| `Date` | `YYYY-MM-DD` | The date of the transaction. |
-| `Description` | `String` | A brief description of the transaction (e.g., "Starbucks", "Whole Foods"). |
-| `Amount` | `Number` | The monetary value of the transaction. |
-| `Category` | `String` | The spending category (e.g., "Groceries", "Transport", "Dining Out"). |
+Column
+Type
+Description
+Date
+YYYY-MM-DD
+The date of the transaction.
+Description
+String
+A brief description of the transaction (e.g., "Starbucks", "Whole Foods").
+Amount
+Number
+The monetary value of the transaction.
+Category
+String
+The spending category (e.g., "Groceries", "Transport", "Dining Out").
 
----
 
-## Project Structure
 
-```
+
+
+
+
+Project Structure
+
+Plain Text
+
+
 .env
 ├── budget_manager_app.py     # Main Streamlit application script
 ├── sample_spending_history.csv # Sample data file for testing
 ├── requirements.txt          # Python package dependencies
 └── README.md                 # This file
-```
+
+
+
